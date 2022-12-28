@@ -1,0 +1,146 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/db7de11c3d.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo" >
+            <img src="/imagens/dev.png" alt="">    
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburguer"></span>
+
+        </button>
+       <nav class="nav"> 
+        <ul class="nav__list">
+            <li class="nav__item"> <a href="#home" class="nav__link">Home</a> </li> 
+            <li class="nav__item"> <a href="#skills" class="nav__link">Minhas Skills</a> </li>  
+            <li class="nav__item"> <a href="#about" class="nav__link">Sobre mim</a> </li>  
+            <li class="nav__item"> <a href="#work" class="nav__link">Meus projetos</a> </li>  
+        </ul>
+    </nav>
+</header>
+
+    <!--Introdução-->
+
+    <section class="intro" id="home">
+        <h1 class="section_title section__title--intro">
+        Olá, eu sou <strong>Randolfo Carvalho</strong> </h1>
+        <p class="section_subtitle section__subtitle--intro">Back-end dev</p>
+        <img src="imagens/perfil.png" alt="Uma foto minha para apresentação" class="intro__img">
+    </section>
+    
+
+    <!--Minhas skills-->
+
+    <section class="minhas-skills" id="skills">
+    <h2 class="section_title section__title--services">Minhas skills</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Mysql</h3>
+            <img src="imagens/mysql.png" alt="" class="mysql-img">
+            <p></p>
+        </div> <!--Skill-->
+
+        <div class="service">
+            <h3 > PHP </h3>
+            <img src="imagens/php.png" alt="" class="php-img">
+            <p></p>
+        </div> <!--Skill-->
+
+        <div class="service">
+            <h3>HTML e CSS</h3>
+            <img src="/imagens/html_css.png" alt="" class="html_css-img">
+            <p></p>
+        </div> <!--Skill-->
+
+        <div class="service">
+            <h3>Laravel</h3>
+            <img src="/imagens/laravel.png" alt="" class="laravel-img">
+            <p></p>
+        </div> <!--Skill-->
+    </div>
+    <a href="#work" class="btn">Meus Projetos</a>
+</section>
+
+<!--Sobre mim-->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Sobre mim</h2>
+    <p class="section__subtitle section__subtitle--about"><strong>Programador PHP</strong></p>
+    <div class="about-me__body">
+        <p>Olá, sou programador PHP e tenho experiência em diversos projetos acadêmicos e pessoais. Além disso, tenho conhecimento em diversas ferramentas e tecnologias, como HTML, CSS, LARAVEL, JAVASCRIPT e também na linguagem C.  Uma das minhas principais habilidades é a capacidade de trabalhar em equipe e colaborar com colegas de trabalho. Sou uma pessoa proativa e gosto de tomar iniciativas para resolver problemas e encontrar soluções criativas. </p>
+        <p>Acredito que todo tipo de conhecimento é válido principalmente se vier de alguem mais experiente, por isso estou ansioso para trabalhar na área e adiquirir o conhecimento e a imersão que tanto almejo.
+            Também sou muito dedicado e comprometido com meu trabalho, e sempre procuro aprender novas habilidades e aprimorar minhas competências.</p>
+    </div>
+    <img src="imagens/programacao.jpg" alt="Minha foto" class="about-me__img">
+</section>
+
+<!--Meus projetos-->
+<section class="my-work" id="work">
+    <h2 class="section__title section__title--work">Meus Projetos </h2>
+    <p class="section__substitle section__substitle--work" >Uma seleção dos meus projetos.</p>
+    <div class="portfolio">
+        <!--Portfolio_item_01-->
+        
+        <a href="https://landing-page-versao-teste.netlify.app/#home" class="portfolio__item">
+            <img src="imagens/landing_page.png" alt="" class="portfolio__img">
+        </a>
+
+
+
+        <!--Portfolio_item_02-->
+        <a href="https://helpdeskprojectrandolfo.000webhostapp.com/" class="portfolio__item">
+            <img src="imagens/apphelp.png" alt="" class="portfolio__img">
+        </a>
+        
+
+        <!--Portfolio_item_03-->
+        <a href="#" class="portfolio__item">
+            <img src="imagens/embreve.jpg" alt="" class="portfolio__img">
+        </a>
+        
+
+        <!--Portfolio_item_04-->
+        <a href="#" class="portfolio__item">
+            <img src="imagens/embreve.jpg" alt="" class="portfolio__img">
+        </a>
+        
+    </div>
+    
+</section>
+<!--Footer-->
+
+<footer class="footer">
+    <a href="mailto:randolfoirades@gmail.com" class="footer__link">Me envie um e-mail</a>
+    <ul class="social-list">
+        <li class="social-list_item"> <a class="social-list__link" href="https://www.linkedin.com/in/randolfo-carvalho-85206222b/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        </li>
+        
+        <li class="social-list_item"><a class="social-list__link" href="https://github.com/RandolfoCarvalho">
+            <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+
+        <li class="social-list_item"><a class="social-list__link" href="https://www.instagram.com/randolfo_oo/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+
+        
+        
+    </ul>
+</footer>
+
+<script src="/index.js"> </script>
+</body>
+</html>
